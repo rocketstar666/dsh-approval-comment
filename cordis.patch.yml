@@ -1,0 +1,6 @@
+# dsh bundle layer: mount the approval-comment host half (lib/index.js via the
+# package root export). The client half (lib/client.js) is discovered from the
+# same package through the `dsh.client` declaration in package.json.
+- insert:
+    - id: approval-comment
+      name: dsh-approval-comment
